@@ -10,16 +10,18 @@ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 background-color: #1F2937;
 display: flexbox;
 justify-content: space-between;
-align-items: center;
 padding: 30px;
+
+
 }
 
 .topheader{
-   color: aqua;
+   color: #F9FAF8;
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
+
 
 .logo{
     color: #F9FAF8;
@@ -32,6 +34,21 @@ padding: 30px;
     display: flex;
     gap: 15px;
     
+}
+
+/*bottom header */
+
+.bottomheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+img {
+    width: 400px;
+    height: auto;
 }
 
 /* second-section{
