@@ -1,0 +1,20 @@
+body {
+flex-direction: column;
+}
+
+.header{
+background-color: #1F2937;
+}
+
+/* second-section{
+}*/
+
+.thirdsection{
+    background-color: #E5E7EB;
+}
+
+/*fourth section*/
+
+.footer{
+background-color: #1F2937;
+}
