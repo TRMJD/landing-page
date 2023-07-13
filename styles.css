@@ -8,13 +8,29 @@ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 
 .header{
 background-color: #1F2937;
+display: flexbox;
+justify-content: space-between;
+align-items: center;
+padding: 30px;
+}
 
+.topheader{
+   color: aqua;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 
 .logo{
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+    
+}
+
+.links {
+    display: flex;
+    gap: 15px;
     
 }
 
