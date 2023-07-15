@@ -8,15 +8,17 @@ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 
 .header{
 background-color: #1F2937;
-display: flexbox;
-justify-content: space-between;
+display: flex;
+flex-direction: column;
+align-content: space-between;
 padding: 30px;
-
+color: #F9FAF8;
 
 }
 
+
+
 .topheader{
-   color: #F9FAF8;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -24,7 +26,6 @@ padding: 30px;
 
 
 .logo{
-    color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
     
@@ -41,9 +42,10 @@ padding: 30px;
 .bottomheader {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding-top: 100px;
+    
 }
 
 img {
