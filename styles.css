@@ -101,6 +101,18 @@ img {
 
 /*fourth section*/
 
+.fourthsection{
+    margin: 10px;
+}
+.fourth-section-box{
+    background-color:#3882f6;
+    display: flex;
+    justify-content: center;
+}
+
 .footer{
 background-color: #1F2937;
+color:#F9FAF8;
+display: flex;
+justify-content: center;
 }
