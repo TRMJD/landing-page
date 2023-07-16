@@ -67,8 +67,36 @@ img {
 /* second-section{
 }*/
 
+.secondsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box-with-text{
+    display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+}
+
 .thirdsection{
     background-color: #E5E7EB;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote{
+    max-width: 500px;
+}
+
+#author{
+    display: flex;
+    flex-direction: row;
+    justify-self: self-end;
 }
 
 /*fourth section*/
