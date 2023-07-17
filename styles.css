@@ -46,6 +46,7 @@ color: #F9FAF8;
     align-items: center;
     padding-top: 100px;
     
+    
 }
 
 img {
@@ -91,23 +92,41 @@ img {
 
 #quote{
     max-width: 500px;
+    font-style: italic;
 }
 
 #author{
     display: flex;
     flex-direction: row;
     justify-self: self-end;
+    font-weight: bold;
 }
 
 /*fourth section*/
 
 .fourthsection{
-    margin: 10px;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .fourth-section-box{
     background-color:#3882f6;
     display: flex;
     justify-content: center;
+    gap:30px;
+    color:#F9FAF8;
+}
+
+#bottom-button{
+    background-color: transparent;
+    color:#F9FAF8;
+    border-color: #F9FAF8;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right:15px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .footer{
